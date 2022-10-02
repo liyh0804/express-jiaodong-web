@@ -15,7 +15,7 @@
   width: 100%;
   height: 100%;
   min-height: 800px;
-  background: url(../assets/images/monitor/bg.png) no-repeat top center;
+  // background: url(../assets/images/monitor/bg.png) no-repeat top center;
   background-size: 100% 100%;
 }
 </style>

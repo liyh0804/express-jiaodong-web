@@ -4,7 +4,7 @@
     <span class="gh-avatar">
       <a-avatar size="small" class="gh-icon">
         <template #icon>
-          <img src="../../assets/images/monitor/avatar.png" alt="">
+          <!-- <img src="../../assets/images/monitor/avatar.png" alt=""> -->
         </template>
       </a-avatar>
       <!-- <span>{{ currentUser.name }}</span> -->

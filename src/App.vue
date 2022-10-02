@@ -2,7 +2,7 @@
   <a-config-provider lang="zhCN">
     <template #renderEmpty>
       <div class="empty-wrap">
-        <img src="./assets/images/monitor/icon-nodata.png"/>
+        <!-- <img src="./assets/images/monitor/icon-nodata.png"/> -->
         <p>暂无数据</p>
       </div>
     </template>

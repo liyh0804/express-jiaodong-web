@@ -15,10 +15,6 @@ export const constantRouterMap = [{
     component: () => import(/* webpackChunkName "home" */ '@/views/home/index'),
     meta: { title: '首页' }
   }]
-}, {
-  path: '/404',
-  hidden: true,
-  component: () => import(/* webpackChunkName "error" */ '@/views/exception/404')
 }]
 
 export const asyncRouterMap = []
