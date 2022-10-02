@@ -312,7 +312,6 @@ export default {
     const downQrcode = (evt) => {
       evt.preventDefault()
       const { id } = evt.currentTarget
-      debugger
       store.dispatch('device/downloadQrcode', { payload: { id } }).then(res => {
         if (res && res.success) {
           window.open(res.result)

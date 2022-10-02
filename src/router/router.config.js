@@ -5,6 +5,17 @@ import { UserLayout, BasicLayout, BlankLayout, RouteView } from '@/layouts'
  * @type {*[]}
  */
 export const constantRouterMap = [{
+  path: '/',
+  component: UserLayout,
+  redirect: '/home',
+  hidden: true,
+  children: [{
+    path: '/home',
+    name: 'home',
+    component: () => import(/* webpackChunkName "home" */ '@/views/home'),
+    meta: { title: '首页' }
+  }]
+}, {
   path: '/user',
   component: UserLayout,
   redirect: '/user/login',
@@ -39,7 +50,7 @@ export const asyncRouterMap = [{
   path: '/',
   name: 'index',
   component: RouteView,
-  redirect: '/monitor/supervisor',
+  redirect: '/dashboard',
   meta: { title: '首页', iTitle: 'menu.home', permission: ['root', 'supervisor', 'operator'] },
   children: [
     // monitor

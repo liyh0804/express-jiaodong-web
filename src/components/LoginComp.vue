@@ -85,7 +85,6 @@ export default {
     const handleFinish = values => {
       console.log(values, formState)
       store.dispatch('user/login', { ...values }).then((res) => {
-        debugger
         router.push('/unit-manage/area-manage')
       })
     }

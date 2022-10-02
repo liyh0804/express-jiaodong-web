@@ -5,7 +5,7 @@ import { injectComponents } from '@/utils/index'
 import router from './router'
 import moment from 'moment'
 import 'moment/locale/zh-cn'
-import './permission'
+// import './permission'
 
 moment.locale('zh-cn')
 
