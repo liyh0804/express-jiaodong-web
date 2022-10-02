@@ -1,0 +1,227 @@
+.ant-form {
+    background-image: url(~@/assets/images/monitor/bg-search.png);
+    background-size: 18.56rem 0.64rem;
+}
+
+.ant-form {
+    background-image: url(~@/assets/images/monitor/bg-search.png);
+    background-size: 18.56rem 0.64rem;
+}
+
+.ant-form .ant-form-item .ant-input {
+    background: rgba(171, 187, 255, 0.2);
+    border: none
+}
+
+.ant-form .ant-form-item .ant-calendar-range-picker-separator, .ant-calendar-range-middle {
+    color: #ffffff !important;
+}
+
+.ant-form .ant-form-item .ant-calendar-picker-clear {
+    background: none;
+}
+
+.ant-form .ant-form-item .ant-calendar-picker-clear svg {
+    fill: #ffffff;
+}
+
+.ant-form .ant-form-item input, .ant-calendar-picker-container input {
+    color: #ffffff !important;
+    /* background-color: transparent !important; */
+}
+
+.ant-calendar-panel {
+    background-color: #292c5c;
+}
+
+.ant-calendar-date-panel {
+    background: rgba(171, 187, 255, 0.2);
+}
+
+.ant-calendar-panel a.ant-calendar-year-select,
+.ant-calendar-panel a.ant-calendar-month-select {
+    color: #FFFFFF;
+}
+
+.ant-calendar-picker-container .ant-calendar-date {
+    color: #FFFFFF;
+}
+
+.ant-calendar-last-month-cell .ant-calendar-date, .ant-calendar-next-month-btn-day .ant-calendar-date {
+    color: #8a8a8a;
+}
+
+.ant-calendar-picker-container .ant-calendar-date:hover {
+    color: #ffffff;
+    background-color: #1e2046;
+}
+
+.ant-calendar-picker-container .ant-calendar-date:active {
+    background: #f5f5f5;
+}
+
+.ant-calendar-header a.ant-calendar-month-select:hover, .ant-calendar-header a.ant-calendar-year-select:hover {
+    color: #40a9ff;
+}
+
+.ant-calendar-column-header-inner {
+    color: #ffffff;
+}
+
+.ant-calendar {
+    border: none !important;
+}
+
+.ant-calendar-body {
+    border-top: 1px solid #f0f0f047 !important;
+}
+
+.ant-calendar-input-wrap {
+    border-bottom: 1px solid #f0f0f047 !important;
+
+}
+
+.ant-calendar-range .ant-calendar-in-range-cell::before {
+    background: #1185bb !important;
+}
+
+.ant-select-selector {
+    background-color: rgba(171, 187, 255, 0.2) !important;
+    border: none !important;
+}
+
+.ant-select-dropdown {
+    background-color: #42477c !important;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled),
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: #4c57b2 !important;
+}
+
+.ant-select-item {
+    color: #ffffff !important;
+}
+
+.ant-select {
+    color: #FFFFFF !important;
+}
+
+.ant-form .ant-btn {
+    border: 1px solid #6677F0 !important;
+    outline: none;
+}
+
+.ant-form-item-label > label {
+    color: #ffffff !important;
+}
+
+.ant-pagination-options-quick-jumper {
+    position: absolute;
+    color: transparent;
+    position: relative;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
+
+
+.ant-pagination-options-quick-jumper:before {
+    content: "跳至";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    z-index: 2;
+    -webkit-touch-callout: default; /* iOS Safari */
+    -webkit-user-select: default; /* Chrome/Safari/Opera */
+    -khtml-user-select: default; /* Konqueror */
+    -moz-user-select: default; /* Firefox */
+    -ms-user-select: default; /* Internet Explorer/Edge */
+    user-select: default; /* Non-prefixed version, currently not supported by any browser */
+}
+
+.ant-pagination-total-text {
+    color: #ffffff;
+}
+
+.ant-pagination-options-quick-jumper span {
+    color: #ffffff;
+}
+
+.ant-pagination-options-quick-jumper input {
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #88A2F7 !important;
+}
+
+.ant-pagination-item, .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+    border: 1px solid #88A2F7 !important;
+}
+
+.ant-pagination-item-ellipsis {
+    color: #FFFFFF !important;
+}
+
+.ant-table-thead > tr > th {
+    background: rgba(102, 119, 240, 0.6);
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+}
+
+.ant-table {
+    background-color: #252756;;
+}
+
+.ant-table-tbody > tr:nth-child(2n-1) > td {
+    color: rgba(214, 213, 221, 1) !important;
+}
+
+.ant-table-tbody > tr:nth-child(2n) > td {
+    color: rgba(214, 213, 221, 1) !important;
+}
+
+.ant-table-placeholder {
+    background-color: transparent;
+    border: none;
+}
+.table-warp .ant-table{
+    background-color: transparent!important;
+}
+.ant-empty-normal{
+    color: #ffffff!important;
+    text-align: center;
+}
+.ant-empty-image svg{
+    display: none ;
+}
+.ant-empty-normal .ant-empty-image{
+    position: relative;
+    height: 1.28rem;
+}
+.ant-empty-image:before{
+    content: '';
+    position: absolute;
+    display: block;
+    background-image:  url(~@/assets/images/monitor/icon-nodata.png);
+    background-repeat: no-repeat;
+    background-size: 1.28rem 1.28rem;
+    left: 50%;
+    height: 1.28rem;
+    width: 1.28rem;
+    transform: translate(-50%);
+}
+.ant-empty-description{
+    display: none ;
+    position: relative;
+}
+.ant-empty.ant-empty-normal:after{
+    content: '暂无内容';
+    display: block;
+}

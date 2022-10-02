@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- SEO 优化 TDK【T：title D: description K: keywords】-->
+    <title>胶州物流大数据平台(grandhonor.com)<%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- reset default css -->
+   <link rel="stylesheet" href="./reset.css">
+    <!-- common css -->
+   <link rel="stylesheet" href="./common.css">
+<!--      公共的引导app中了 否则刷新会有问题-->
+    <!-- iconfont 引入方式 -->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2612383_ejsrrsdw7ap.css">
+    <!-- <link rel="stylesheet" href="<%= BASE_URL %>src/assets/css/resets.css"> -->
+
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="url.js"></script>
+    <script>
+      // window.onresize = function() {
+      //   if (window.location.pathname !== '/inteli_monitor_sys') {
+      //     window.location.reload()
+      //   }
+      // }
+    </script>
+    <!-- <script src="../src/assets/js/webrtc.js"></script> -->
+    <script src="flexible.js"></script>
+    <!-- <script>
+      // window.onload = function() {
+        // if (to.path === '/dashboard' || to.path === '/monitor') {
+        const whdef = 100 / 1920 // 表示1920的设计图,使用100PX的默认值,使用100px只是为了方便计算 其他值都可以
+        // var wH = window.innerHeight;// 当前窗口的高度
+        const wW = window.innerWidth > 1280 ? window.innerWidth : 1280 // 当前窗口的宽度
+        const rem = wW * whdef // 以默认比例值乘以当前窗口宽度,得到该宽度下的相应FONT-SIZE值
+        document.getElementsByTagName('html')[0].style.fontSize = rem + 'px'
+        // }
+      // }
+    </script> -->
+  </body>
+</html>
