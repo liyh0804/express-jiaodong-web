@@ -12,7 +12,7 @@ export const constantRouterMap = [{
   children: [{
     path: '/home',
     name: 'home',
-    component: () => import(/* webpackChunkName "home" */ '@/views/home'),
+    component: () => import(/* webpackChunkName "home" */ '@/views/home/index'),
     meta: { title: '首页' }
   }]
 }, {
