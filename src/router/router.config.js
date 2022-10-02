@@ -6,7 +6,7 @@ import { UserLayout, BasicLayout, BlankLayout, RouteView } from '@/layouts'
  */
 export const constantRouterMap = [{
   path: '/',
-  component: UserLayout,
+  component: RouteView,
   redirect: '/home',
   hidden: true,
   children: [{
